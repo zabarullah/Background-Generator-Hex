@@ -18,7 +18,6 @@ setGradientRandom();
 
 //returns numbers upto 255 randomly
 function getRndInteger() {
-  console.log(Math.floor(Math.random() * 255)); // testing**************************************************************************
   return Math.floor(Math.random() * 255);
 };
 
@@ -30,7 +29,6 @@ function rgbToHex() {
   if (hex.length < 2) {
        hex = "0" + hex;
   }
-  console.log(hex); // testing **********************************************************************************************
   return hex;
 };
 
@@ -40,7 +38,6 @@ function randomColorNo() {
 	var randomColor = "#" + rgbToHex()
 				 + rgbToHex()
 				 + rgbToHex();
-	console.log(randomColor); // testing**************************************************
 	return randomColor;
 }
 
